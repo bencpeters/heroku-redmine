@@ -68,6 +68,7 @@ GEM
       metaclass (~> 0.0.1)
     multi_json (1.7.8)
     net-ldap (0.3.1)
+    newrelic_rpm (3.6.6.147)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     pg (0.16.0)
@@ -148,6 +149,7 @@ DEPENDENCIES
   jquery-rails (~> 2.0.2)
   mocha (>= 0.14)
   net-ldap (~> 0.3.1)
+  newrelic_rpm
   pg (>= 0.11.0)
   rack-openid
   rails (= 3.2.13)

@@ -39,8 +39,10 @@ platforms :jruby do
   gem "activerecord-jdbc-adapter", "1.2.5"
 end
 
+# Gems for Heroku
 gem "pg", ">= 0.11.0", :platforms => [:mri, :mingw]
 gem "activerecord-jdbcpostgresql-adapter", :platforms => :jruby
+gem 'newrelic_rpm'
 
 # Include database gems for the adapters found in the database
 # configuration file
