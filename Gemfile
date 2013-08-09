@@ -9,6 +9,9 @@ gem "builder", "3.0.0"
 
 gem 'dotenv-rails', :groups => [:development, :test]
 
+# Gem from plugin, need to get things to work with Heroku
+gem 'aws-sdk'
+
 # Optional gem for LDAP authentication
 group :ldap do
   gem "net-ldap", "~> 0.3.1"
